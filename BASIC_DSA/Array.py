@@ -55,3 +55,38 @@ print("Last element:", Numbers[-1])  # Negative index for last element
 Numbers = [100, 200, 300, 400, 500]
 for i in [1, -1]:
     print(Numbers[i])
+
+# 4Update the value at a specific index.
+
+Vegetables = ["carrot", "banana", "cabbage", "potato"]
+
+Vegetables[1] = "bottle gourd"
+
+print("Before :", Vegetables)
+
+
+#method2
+
+Vegetables = ["carrot", "banana", "cabbage", "potato"]
+
+Vegetables.append("onion")
+
+print("before", Vegetables)
+
+
+# method3
+
+Vegetables = ["carrot", "banana", "cabbage", "potato"]
+
+Vegetables.insert(3, "onion")
+
+print("i will insert onion at index 3", Vegetables)
+
+
+# method4  its for  i will reverse the string
+
+Vegetables = ["carrot", "banana", "cabbage", "potato"]
+
+Vegetables.reverse()
+
+print("reversed list", Vegetables)
