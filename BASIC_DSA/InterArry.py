@@ -74,4 +74,68 @@ min_Numbers = min(Numbers)
 
 print("Its a given list:", Numbers)
 print("Minimum number in the list:", min_Numbers)
-                                                     
+
+#output:
+# Its a given list: [500000, 200, 9000, 1000, 50, 60, 100, 3, 4, 8]
+# Minimum number in the list: 3
+
+
+
+# sum of all numbers
+
+ #for loop
+
+
+given_List = [1, 20, 30, 40, 5, 6, 7,80,90]
+
+count = 0
+for i in given_List:
+    count += i
+
+print("Its a given list:", given_List)
+print("Sum of all numbers in the list:", count)
+#output:
+# Its a given list: [1, 20, 30, 40, 5, 6, 7, 80, 90]
+# Sum of all numbers in the list: 279
+
+
+ # while loop
+
+given_List = [1, 20, 30, 40, 5, 6, 7, 80, 90]
+count = 0
+i = 0
+while i < len(given_List):
+    count += given_List[i]
+    i += 1
+
+print("Its a given list:", given_List)
+print("Sum of all numbers in the list:", count)  
+
+#output:
+# Its a given list: [1, 20, 30, 40, 5, 6, 7, 80, 90]
+# Sum of all numbers in the list: 279
+
+
+# function method
+
+def sum_of_list(list):
+    count = 0
+    for i in list:
+        count += i
+    return count
+
+# calling the function
+
+given_List = [10, 20, 30, 40, 50, 6, 7, 80, 90]
+result = sum_of_list(given_List)
+
+print("Its a given list:", given_List)
+print("Sum of all numbers in the list:", result)
+
+#output:
+# Its a given list: [10, 20, 30, 40, 50, 6, 7, 80, 90]
+# Sum of all numbers in the list: 333
+
+
+# average of numbers OF list
+
