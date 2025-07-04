@@ -151,6 +151,8 @@ print("Find the avarage of array elements:", avarge)
 
 #method2
 
+# Using a while loop to calculate the average
+
 FindAvarge = [100, 200, 300, 400, 500, 600, 700, 800, 900, 100]
 total = 0
 i = 0
