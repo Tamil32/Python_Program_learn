@@ -151,3 +151,15 @@ print("Find the avarage of array elements:", avarge)
 
 #method2
 
+FindAvarge = [100, 200, 300, 400, 500, 600, 700, 800, 900, 100]
+total = 0
+i = 0
+while i < len(FindAvarge):
+    total += FindAvarge[i]
+    i += 1
+
+    avarge = total / len(FindAvarge)
+
+print("Find the avarage of array elements:", avarge)
+
+
