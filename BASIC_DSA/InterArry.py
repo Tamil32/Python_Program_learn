@@ -139,3 +139,39 @@ print("Sum of all numbers in the list:", result)
 
 # average of numbers OF list
 
+Numbers = [10, 20, 30, 40, 50, 6, 7, 80, 90]
+
+total = sum(Numbers)
+count = len(Numbers)
+
+avarage = total / count
+
+print("Its a given list:", Numbers)
+print("Average of all numbers in the list:", avarage)
+
+#output:
+# Its a given list: [10, 20, 30, 40, 50, 6, 7, 80, 90]
+# Average of all numbers in the list: 33.333333333333336
+
+# print only even numbers
+
+Numbers = [10, 22, 33, 44, 55, 66, 77, 88]
+
+for i in Numbers:
+    if i % 2 == 0:
+        print("Its a given list:", Numbers)
+        print("Even number in the list:", i)
+
+#output:
+# Its a given list: [10, 22, 33, 44, 55, 66, 77, 88]
+# Even number in the list: 10
+
+
+# print only odd numbers
+
+Numbers = [10, 22, 33, 44, 55, 66, 77, 88]
+
+for i in Numbers:
+    if i % 2 != 0:
+        print("Its a given list:", Numbers)
+        print("Odd number in the list:", i)
