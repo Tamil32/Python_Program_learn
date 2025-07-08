@@ -175,3 +175,39 @@ for i in Numbers:
     if i % 2 != 0:
         print("Its a given list:", Numbers)
         print("Odd number in the list:", i)
+
+#output:
+# Its a given list: [10, 22, 33, 44, 55, 66, 77, 88]
+# Odd number in the list: 33
+
+
+# replace the last element in a list with a new number
+
+Numbers = [10, 20, 30, 40, 50, 60]
+new_Number = 100
+Numbers[-1] = new_Number
+print("Ita given list:", Numbers)
+
+
+#output:
+# Ita given list: [10, 20, 30, 40, 50, 100]
+
+
+# copy a list to a new list
+
+Numbers = [10, 20, 30, 40, 50, 60]
+new_Number = Numbers.copy()
+print("Its a given list:", Numbers)
+print("Copied list:", new_Number)
+
+#output:
+# Its a given list: [10, 20, 30, 40, 50, 60]
+# Copied list: [10, 20, 30, 40, 50, 60]
+
+
+# clear all elements in a list
+Numbers = [10, 20, 30, 40, 50, 60]
+Numbers.clear()
+print("Its a given list:", Numbers)
+#output:
+# Its a given list: []
